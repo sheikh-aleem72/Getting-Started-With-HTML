@@ -1,0 +1,41 @@
+Task1: Write a simple program in HTML that displays the heading “HTML defines the contents and structure of your website”, on the web browser.
+
+
+Task2: Explain the purpose of comments in HTML and provide an example of how to use comments in an HTML document?
+Ans: Comments in HTML are used for documentation, explanation and communication within the code. They help developers to understand the code’s purpose and can be valuable for debugging and collaboration. In HTML, comments are enclosed within <!-- and --> tags, ensuring they remain invisible to website visitors.
+For Example: 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comments in HTML</title>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <!-- This is an informative comment -->
+    <p>This shows about how to use comments</p>
+</body>
+</html>
+
+
+
+Task3: Write an HTML program that includes a heading, a paragraph of text, a horizontal line and a line break.
+arrange these elements to create a simple web page layouts.
+
+
+
+Task4: Write a short note on tag and elements with an example.
+Ans: In HTML, "tag" and "element" are fundamental concepts used to structure and define the content of a webpage.
+
+1. Tag: A tag is a keyword or code snippet enclosed in angle brackets (`<` and `>`) that defines an HTML element. Tags provide instructions to the browser on how to display or structure content. Tags often come in pairs: an opening tag and a closing tag. The opening tag indicates the start of an element, and the closing tag, with a forward slash (`</`), denotes its end. For example, `<p>` is the opening tag for a paragraph element, and `</p>` is its closing tag.
+
+2. Element: An element is a complete set of HTML tags and the content they enclose. It consists of an opening tag, the content, and a closing tag. Elements define the structure and semantics of the webpage. For instance, a `<p>` element represents a paragraph, and its content is the text or other HTML elements contained within it.
+
+For example:
+<p>This is a < strong > paragraph</strong> </strong > element.</p>
+
+In this example, `<p>` and `</p>` are the opening and closing tags, respectively, forming the `<p>` element. The content, "This is a," "paragraph," and "<strong>paragraph</strong>," is enclosed within the element. The `<strong>` tag is nested inside the `<p>` element, demonstrating how elements can contain other elements.
+
+
+
+Task5: What is the DOCTYPE Declaration in HTML?
+Ans: The DOCTYPE Declaration in HTML, often written as `<!DOCTYPE html>`, is an essential declaration at the beginning of an HTML document. It specifies the document type and version of HTML being used, helping the web browser correctly interpret and render the webpage. In modern HTML5, `<!DOCTYPE html>` is used to signify the use of the latest HTML standard. It ensures consistent rendering across different browsers and enables compliance with web standards. The DOCTYPE Declaration is vital for browsers to know how to handle and display the HTML content, ensuring a consistent and predictable experience for users.
